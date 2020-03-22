@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ui version="4.0">
+    <class>TimeFormatConvert</class>
+    <widget class="QMainWindow" name="TimeFormatConvert">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>478</width>
+                <height>281</height>
+            </rect>
+        </property>
+        <property name="minimumSize">
+            <size>
+                <width>478</width>
+                <height>281</height>
+            </size>
+        </property>
+        <property name="maximumSize">
+            <size>
+                <width>478</width>
+                <height>281</height>
+            </size>
+        </property>
+        <property name="windowTitle">
+            <string>时间格式转换工具</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <widget class="QLineEdit" name="UnixTimeEdit">
+                <property name="geometry">
+                    <rect>
+                        <x>190</x>
+                        <y>110</y>
+                        <width>211</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="minimumSize">
+                    <size>
+                        <width>211</width>
+                        <height>20</height>
+                    </size>
+                </property>
+                <property name="maximumSize">
+                    <size>
+                        <width>211</width>
+                        <height>20</height>
+                    </size>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Consolas</family>
+                        <pointsize>12</pointsize>
+                    </font>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="ConvertBtn">
+                <property name="geometry">
+                    <rect>
+                        <x>180</x>
+                        <y>190</y>
+                        <width>75</width>
+                        <height>23</height>
+                    </rect>
+                </property>
+                <property name="minimumSize">
+                    <size>
+                        <width>75</width>
+                        <height>23</height>
+                    </size>
+                </property>
+                <property name="maximumSize">
+                    <size>
+                        <width>75</width>
+                        <height>23</height>
+                    </size>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Arial Unicode MS</family>
+                        <pointsize>12</pointsize>
+                    </font>
+                </property>
+                <property name="cursor">
+                    <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="text">
+                    <string>Convert</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="rightDesc">
+                <property name="enabled">
+                    <bool>false</bool>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>290</x>
+                        <y>260</y>
+                        <width>181</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Calibri</family>
+                        <pointsize>9</pointsize>
+                    </font>
+                </property>
+                <property name="cursor">
+                    <cursorShape>ForbiddenCursor</cursorShape>
+                </property>
+                <property name="layoutDirection">
+                    <enum>Qt::RightToCleft</enum>
+                </property>
+                <property name="text">
+                    <string>Copyright ©2020 BoyceChen</string>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="StandardTimeEdit">
+                <property name="geometry">
+                    <rect>
+                        <x>190</x>
+                        <y>40</y>
+                        <width>211</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="minimumSize">
+                    <size>
+                        <width>211</width>
+                        <height>20</height>
+                    </size>
+                </property>
+                <property name="maximumSize">
+                    <size>
+                        <width>211</width>
+                        <height>20</height>
+                    </size>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Consolas</family>
+                        <pointsize>12</pointsize>
+                    </font>
+                </property>
+            </widget>
+            <widget class="Qlabel" name="StandardTimeTips">
+                <property name="geometry">
+                    <rect>
+                        <x>190</x>
+                        <y>60</y>
+                        <width>161</width>
+                        <height>16</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>eg:2020-03-22 19:30:45</string>
+                </property>
+            </widget>
+            <widget class="QRadioButton" name="StandardTime_radioBt">
+                <property name="geometry">
+                    <rect>
+                        <x>40</x>
+                        <y>40</y>
+                        <width>131</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Arial Unicode MS</family>
+                        <pointsize>12</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>Standard Time</string>
+                </property>
+            </widget>
+            <widget class="QRadioButton" name="UnixTime_radioBt">
+                <property name="geometry">
+                    <rect>
+                        <x>40</x>
+                        <y>110</y>
+                        <width>131</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Arial Unicode MS</family>
+                        <pointsize>12</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>Unix Time</string>
+                </property>
+            </widget>
+        </widget>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
